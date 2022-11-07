@@ -1,0 +1,147 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Release-df8a23303754f0cfc2e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "aos",
+					"jsonFile" : "directory-aos-Release-332461006202a8e041aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "soa",
+					"jsonFile" : "directory-soa-Release-ea13261753f11f80198d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "soa",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "images",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "aos::@cc91f6f4e94a601500b3",
+					"jsonFile" : "target-aos-Release-bc8010ced0d770dc5590.json",
+					"name" : "aos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Release-c0b4ced59bbd2d7245cc.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "img-aos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-img-aos-Release-dd26f8e92e6fd3f83765.json",
+					"name" : "img-aos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "img-soa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-img-soa-Release-b5c0031b3858d56b5d79.json",
+					"name" : "img-soa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "soa::@b1061b52518200b6c1d2",
+					"jsonFile" : "target-soa-Release-9ca33ebaef35b3481bb8.json",
+					"name" : "soa",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Marta/Documents/GitHub/project2/cmake-build-release",
+		"source" : "C:/Users/Marta/Documents/GitHub/project2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
