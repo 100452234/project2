@@ -1,7 +1,7 @@
 #ifndef IMAGES_COMMON_HISTOGRAM_HPP
 #define IMAGES_COMMON_HISTOGRAM_HPP
 
-#include "common/pixel.hpp"
+#include "pixel.hpp"
 
 #include <vector>
 #include <cstdint>

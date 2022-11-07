@@ -1,5 +1,5 @@
 #include "bitmap_soa.hpp"
-#include "common/file_error.hpp"
+#include "../common/file_error.hpp"
 #include <fstream>
 
 namespace images::soa {

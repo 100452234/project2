@@ -3,9 +3,9 @@
 
 #include <filesystem>
 #include <vector>
-#include "common/bitmap_header.hpp"
-#include "common/pixel.hpp"
-#include "common/histogram.hpp"
+#include "../common/bitmap_header.hpp"
+#include "../common/pixel.hpp"
+#include "../common/histogram.hpp"
 
 namespace images::aos {
 

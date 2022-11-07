@@ -1,5 +1,5 @@
 #include "bitmap_aos.hpp"
-#include "common/file_error.hpp"
+#include "../common/file_error.hpp"
 #include <fstream>
 
 namespace images::aos {

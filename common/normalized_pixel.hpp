@@ -1,7 +1,7 @@
 #ifndef IMAGES_COMMON_NORMALIZED_PIXEL_HPP
 #define IMAGES_COMMON_NORMALIZED_PIXEL_HPP
 
-#include "common/pixel.hpp"
+#include "pixel.hpp"
 
 namespace images::common {
 
