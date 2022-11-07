@@ -18,17 +18,17 @@ target_link_libraries(img-soa soa common)
 target_include_directories(img-aos PUBLIC common aos)
 target_include_directories(img-soa PUBLIC common soa)
 
-include(FetchContent)
-FetchContent_Declare(
-    googletest
-    GIT_REPOSITORY https://github.com/google/googletest.git
-    GIT_TAG release-1.12.1
-)
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-FetchContent_MakeAvailable(googletest)
+#include(FetchContent)
+#FetchContent_Declare(
+#    googletest
+#    GIT_REPOSITORY https://github.com/google/googletest.git
+#    GIT_TAG release-1.12.1
+#)
+#set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+#FetchContent_MakeAvailable(googletest)
 
 
-enable_testing()
+#enable_testing()
 #add_subdirectory(test)
-add_subdirectory(utest)
+#add_subdirectory(utest)
 
